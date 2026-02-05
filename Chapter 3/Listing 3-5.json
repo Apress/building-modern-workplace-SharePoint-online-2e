@@ -1,0 +1,34 @@
+{
+    "sections": [
+        {
+            "displayname": "Product Details",
+            "fields": [
+                "Title",
+                "Product Name",
+                "Product Type"
+            ]
+        },
+        {
+            "displayname": "",
+            "fields": [                
+                "Product Features"
+            ]
+        },
+        {
+            "displayname": "Manufacturing",
+            "fields": [
+                "Manufactured Date",
+                "Materials Used",
+                "Expiry Date"
+            ]
+        },
+        {
+            "displayname": "Product Workflow",
+            "fields": [
+                "Product Status",
+                "Product Lead",
+                "Inspection Completed Date"
+            ]
+        }
+    ]
+}
