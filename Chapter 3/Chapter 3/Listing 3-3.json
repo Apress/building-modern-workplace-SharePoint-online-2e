@@ -1,0 +1,89 @@
+{
+  "elmType": "div",
+  "style": {
+    "flex-direction": "row",
+    "justify-content": "left",
+    "align-items": "center",
+    "flex-wrap": "nowrap",
+    "padding-top": "30px",
+    "padding-right": "10px"
+  },
+  "children": [
+    {
+      "elmType": "div",
+      "style": {
+        "display": "=if([$ProductStatus] == 'Draft' || [$ProductStatus] == '', 'inherit','none')",
+        "flex-direction": "row",
+        "justify-content": "left",
+        "align-items": "center",
+        "flex-wrap": "wrap"
+      },
+      "children": [
+        {
+          "elmType": "button",
+          "customRowAction": {
+            "action": "setValue",
+            "actionInput": {
+              "ProductStatus": "Pending"
+            }
+          },
+          "attributes": {
+            "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover"
+          },
+          "style": {
+            "background-color": "transparent",
+            "border": "none",
+            "width": "110px",
+            "cursor": "pointer",
+            "flex-direction": "row",
+            "justify-content": "left",
+            "align-items": "center",
+            "flex-wrap": "wrap",
+            "font-size": "18px",
+            "color": "#008000"
+          },
+          "children": [
+            {
+              "elmType": "span",
+              "attributes": {
+                "iconName": "SkypeCircleCheck"
+              },
+              "style": {
+                "padding": "4px"
+              }
+            },
+            {
+              "elmType": "span",
+              "txtContent": "Submit",
+              "style": {
+                "word-break": "keep-all"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elmType": "div",
+      "style": {
+        "padding-right": "20px"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "='Current Status: '+[$ProductStatus]",
+          "style": {
+            "display": "inherit",
+            "padding-left": "5px",
+            "padding-top": "15px",
+            "color": "#a8072",
+            "font-weight": "400",
+            "font-size": "16px",
+            "float": "left",
+            "word-break": "keep-all"
+          }
+        }
+      ]
+    }
+  ]
+}
