@@ -1,0 +1,39 @@
+//Request list component
+
+  .requestList {
+    margin-top: 20px;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-y: auto;
+    height: 300px;
+    margin-top:10px;
+  }
+
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  .buttonList {
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    padding-bottom: 25px;
+  }
+    .btnInProgress {
+
+    background-color: lightcoral;
+    min-width: 120px !important;
+  }
+  .btnCompleted {
+    background-color: #2596be;
+  }

@@ -1,0 +1,55 @@
+// Classes for Request Details
+
+.container {
+      max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-left: 30%;
+    color: #0078d4;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.fluentControl .ms-TextField {
+  width: 100%;
+}
+
+.fluentControl .ms-Dropdown {
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding:20px;
+}
+
+.successLabel {
+  background-color: #70c985;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.errorLabel {
+  background-color: lightcoral;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
