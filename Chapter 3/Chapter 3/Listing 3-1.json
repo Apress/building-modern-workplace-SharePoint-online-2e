@@ -1,9 +1,0 @@
-{
-   "$schema":"https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
-   "elmType": "div",
-   "txtContent": "[$ProductName]",
-   "style": {
-      "color": "=if([$ProductType] == 'Food', 'green', if([$ProductType] == 'Electronics', 'blue', 'yellow'))",
-      "font-weight": "bold"
-   }
-}
